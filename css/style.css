@@ -22,7 +22,7 @@ car-component {
 
 player-component {
     width:168px; height:120px;
-    background-image: url('../images/PLAYER.png');
+    background-image: url('../images/player.png');
 }
 
 crash-component {
