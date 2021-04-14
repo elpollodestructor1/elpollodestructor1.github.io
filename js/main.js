@@ -59,6 +59,7 @@ class Player extends HTMLElement {
         this.y = window.innerHeight - 100;
         this.callback = (e) => this.onKeyDown(e);
         window.addEventListener("keydown", this.callback);
+	this.draw();
     }
     onKeyDown(event) {
         switch (event.keyCode) {
