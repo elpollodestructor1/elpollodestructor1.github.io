@@ -1,0 +1,38 @@
+html, body {
+    background-color: #171817;
+    overflow:hidden;
+    color:white;
+    margin:0px; padding:0px;
+    background-image: url('../images/road.png');
+    background-repeat: repeat;
+}
+
+body * {
+    position: absolute;
+    display: block;
+    margin:0px; padding:0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+car-component {
+	width:168px; height:108px;
+	background-image: url('../images/car.png');
+}
+
+player-component {
+    width:168px; height:120px;
+    background-image: url('../images/PLAYER.png');
+}
+
+crash-component {
+	width:169px; height:112px;
+	background-image: url('../images/crash.png');
+}
+#score{
+    margin-top: 15px;
+    margin-left: 45px;
+    width: 1200px;
+    text-align: right;
+    font-size: 30px;
+}
