@@ -13,7 +13,7 @@ class Car extends HTMLElement {
     }
     update() {
         this.x += this.speed;
-        if (this.x > window.innerWidth) {
+        if (this.x > 1000) {
         }
         if(this.x>1200){
                 alert("GAME OVER, VUELVE A INTENTARLO")
